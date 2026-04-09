@@ -38,14 +38,14 @@ button {
 
 /* ロゴ */
 #logo {
-  display: none;         /* ←最初は非表示 */
+  display: none;         
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 #logo img {
-  width: 300px;          /* ←サイズ調整 */
+  width: 300px;          
   max-width: 80%;
 }
 
@@ -101,7 +101,7 @@ function login() {
   if (input === pass) {
     document.getElementById("login").style.display = "none";
     document.getElementById("gallery").style.display = "grid";
-    document.getElementById("logo").style.display = "block"; // ←追加
+    document.getElementById("logo").style.display = "block"; 
     loadImages();
   } else {
     alert("パスワードが違うよ!");
